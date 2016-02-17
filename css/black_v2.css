@@ -1,0 +1,342 @@
+/*
+  File name: black_v2.css
+  Colors: Dark Grays for the Cursed
+  Author: Martel
+  What to include: Details that fit in color specific css-files.
+  (Colors, images, etc.) All other details are in the CSS resolution files.
+*/
+
+
+
+/*
+  Start new layout.
+  Author: Damadm00, ORKFiA
+*/
+
+html {
+}
+
+body {
+  background: #7F8488 url('../pics/gray2_back.gif');
+  color: #CCC;
+}
+
+a:link,
+a:visited {
+  color: #EDA;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #FD7;
+}
+
+h1,
+h2 {
+  color: #EDA;
+}
+
+h3 {
+  color: #DDD;
+}
+
+hr {
+  background: #333;
+  color: #333;
+}
+
+#container750center,
+#container750left,
+#container1060center,
+#container1060left {
+  border-color: #333;
+}
+
+#header,
+#footer {
+  background-color: #453;
+  color: #CCC;
+}
+
+#header img {
+  border-top-color: #333;
+  border-bottom-color: #333;
+}
+
+#container1060center #header img,
+#container1060left #header img,
+#container750center #header img,
+#container750left #header img {
+    background-color: #809085;
+}
+
+#menu li.menu ul {
+  background-color: #666;
+  border-color: #333;
+}
+
+#menu li.menu ul li {
+  background-color: #666;
+}
+
+#menu #nav li.menu ul li hr.menuLine {
+  background-color: #333;
+  color: #333;
+}
+
+#menu li.menu ul li:hover,
+#menu #nav li.sfhover ul li.sfhover {
+  background-color: #555;
+}
+
+#upper_shadow {
+  background: #333 url('../pics/black_u_shadow.gif') repeat-x;
+}
+
+#portal {
+  color: #CCC;
+  background: #444 url('../pics/black_back.gif');
+}
+
+#textBig,
+#textMedium,
+#textSmall,
+#text,
+div.text {
+  background: #555 url('../pics/black_back_light.gif');
+  border-color: #333;
+}
+
+#lower_shadow {
+  background: #333 url('../pics/black_l_shadow.gif') repeat-x;
+}
+
+#copyright {
+  /*color: #CCC;*/
+}
+
+#ServerTime {
+  color: #000;
+}
+
+#OrkTime {
+  color: #CCC;
+}
+
+#tribeStats {
+  background: #555 url('../pics/black_back_light.gif');
+  border-color: #333;
+}
+
+#tribeStats th {
+  color: #EDA;
+}
+
+#tribeStats td {
+  color: #DDD;
+}
+
+#gameStats li {
+  color: #DDD;
+}
+
+#gameStats b,
+#gameStats strong {
+  color: #EDA;
+  font-weight: bold;
+}
+
+/* End new layout */
+/* Start new classes for tables */
+
+#portal table {
+  border-color: #333;
+  color: #000;
+}
+
+#portal tr.header {
+  background-color: #777;
+}
+
+#portal tr.header th {
+  border-bottom-color: #333;
+}
+
+#portal tr.subheader {
+  background-color: #666;
+}
+
+#portal tr.subheader th,
+#portal tr.subheader td {
+  border-bottom-color: #333;
+}
+
+#portal tr.data th {
+  color: #EDA;
+}
+
+#portal tr.data td {
+  color: #CCC;
+}
+
+#portal tr.message td {
+  color: #CCC;
+}
+
+#portal tr.odd {
+  color: #CCC;
+}
+
+#portal tr.even {
+  color: #F5F5DC;
+}
+
+th.bsup,
+td.bsup,
+th.bsdown,
+td.bsdown,
+th.bsright,
+td.bsright,
+th.bsleft,
+td.bsleft {
+  border-color: #333;
+}
+
+/* End classes for tables */
+/* Start classes for texts */
+
+#textBig tr.data th,
+#textMedium tr.data th,
+#textSmall tr.data th,
+#text tr.data th,
+.text tr.data th,
+#textBig tr.data td,
+#textMedium tr.data td,
+#textSmall tr.data td,
+#text tr.data td,
+.text tr.data td {
+  background-color: #444;
+}
+
+#textBig p,
+#textMedium p,
+#textSmall p,
+#text p,
+.text p {
+  color: #DDD;
+}
+
+/* End classes for texts */
+/* Start classes for other elements */
+
+/* End classes for other elements*/
+/* Specific layout&design variables */
+
+a.admin,
+span.admin,
+#portal tr.data th.admin {
+  color: #FFF;
+}
+
+a.head,
+span.head,
+#portal tr.data th.head {
+  color: #FFC0CB;
+}
+
+a.staff,
+span.staff,
+#portal tr.data th.staff {
+  color: #3381BC;
+}
+
+a.mod,
+span.mod,
+#portal tr.data th.mod {
+  color: #90EE90;
+}
+
+a.elder,
+span.elder,
+#portal tr.data th.elder {
+  color: #FFD700;
+}
+
+a.coelder,
+span.coelder,
+#portal tr.data th.coelder {
+  color: #DAA520;
+}
+
+a.player,
+span.player,
+#portal tr.data th.player {
+  color: #B8CDE9;
+}
+
+a.protected,
+span.protected,
+#portal tr.data th.protected {
+  color: #90EE90;
+}
+
+a.check_new,
+strong.check_new {
+  color: #FF0;
+}
+
+a.newWindowLink {
+  background: url('../pics/new-window.gif') no-repeat 100% 0;
+}
+
+a.header,
+strong.header {
+}
+
+.newsattack {
+  color: #F5F5DC;
+}
+
+.newsbc {
+  color: #ADD8E6;
+}
+
+.indicator {
+  color: #FF0;
+}
+
+.militstats {
+  color: #CCC;
+}
+
+.positive,
+#portal tr.data td.positive,
+#portal tr.data td.incoming {
+  color: #90EE90;
+}
+
+.negative,
+#portal tr.data td.negative {
+  color: #F00;
+}
+
+label {
+    color: #EDA;
+}
+
+/* End general layout&design variables */
+/* Start 2 column layout */
+
+/* End 2 column layout */
+/* CSS rules for main inc below (Martel) */
+
+a.gloss {
+  color: #DDD; /* should be the same color as text */
+  border-bottom-color: #DDD; /* for IE 5, same color as above */
+}
+
+#portal span.highlight {
+  color: #FF9;
+  background-color: #444;
+}

@@ -1,0 +1,377 @@
+/*
+  File name: ork_v2.css
+  Colors: "Original" blue and gray
+  Author: Martel, colors by C4LV1N (?)
+  What to include: Details that fit in color specific css-files. (Colors,
+  images, etc.) All other details are in the CSS resolution files.
+*/
+
+
+
+/*
+  Start new layout.
+  Author: Damadm00, ORKFiA
+*/
+
+html {
+}
+
+body {
+  background: #7F8488 url('../pics/gray2_back.gif');
+  color: #CCC;
+}
+
+a:link,
+a:visited {
+  color: #B8CDE9;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #ACBCDD;
+}
+
+h1,
+h2 {
+  color: #DDD;
+}
+
+h3 {
+  color: #DDD;
+}
+
+hr {
+  background: #2B3147;
+  color: #2B3147;
+}
+
+#container750center,
+#container750left,
+#container1060center,
+#container1060left {
+  border-color: #2B3147;
+}
+
+#header,
+#footer {
+  background-color: #626D7C;
+  color: #CCC;
+}
+
+#header img {
+  border-top-color: #2B3147;
+  border-bottom-color: #2B3147;
+}
+
+#container1060center #header img,
+#container1060left #header img,
+#container750center #header img,
+#container750left #header img {
+    background-color: #707D8E;
+}
+
+#menu li.menu ul {
+  background-color: #707D8E;
+  border-color: #2B3147;
+}
+
+#menu li.menu ul li {
+  background-color: #707D8E;
+}
+
+#menu #nav li.menu ul li hr.menuLine {
+  background-color: #2B3147;
+  color: #2B3147;
+}
+
+#menu li.menu ul li:hover,
+#menu #nav li.sfhover ul li.sfhover {
+  background-color: #626D7C;
+}
+
+#upper_shadow {
+  background: #2B3B54 url('../pics/ork_u_shadow.gif') repeat-x;
+}
+
+#portal {
+  color: #CCC;
+  background: #3B4B64 url('../pics/ork_back.gif');
+}
+
+#textBig,
+#textMedium,
+#textSmall,
+#text,
+div.text {
+  background: #4F5F78 url('../pics/ork_back_light.gif');
+  border-color: #2B3147;
+}
+
+#lower_shadow {
+  background: #2B3B54 url('../pics/ork_l_shadow.gif') repeat-x;
+}
+
+#copyright {
+  color: #2B3147;
+}
+
+#ServerTime {
+  color: #000;
+}
+
+#OrkTime {
+  color: #CCC;
+}
+
+#tribeStats {
+  background: #4F5F78 url('../pics/ork_back_light.gif');
+  border-color: #2B3147;
+}
+
+#tribeStats th {
+  color: #B8CDE9;
+}
+
+#tribeStats td {
+  color: #DDD;
+}
+
+#gameStats li {
+  color: #DDD;
+}
+
+#gameStats b,
+#gameStats strong {
+  color: #B8CDE9;
+  font-weight: bold;
+}
+
+/* End new layout */
+/* Start new classes for tables */
+
+#portal table {
+  border-color: #2B3147;
+  color: #000;
+}
+
+#portal tr.header {
+  background-color: #707D8E;
+}
+
+#portal tr.header th {
+  border-bottom-color: #2B3147;
+}
+
+#portal tr.subheader {
+  background-color: #626D7C;
+}
+
+#portal tr.subheader th,
+#portal tr.subheader td {
+  border-bottom-color: #2B3147;
+}
+
+#portal tr.data th {
+  color: #B8CDE9;
+}
+
+#portal tr.data td {
+  color: #CCC;
+}
+
+#portal tr.message td {
+  color: #CCC;
+}
+
+#portal tr.odd {
+  color: #CCC;
+}
+
+#portal tr.even {
+  color: #F5F5DC;
+}
+
+#portal th.bsup,
+#portal td.bsup,
+#portal th.bsdown,
+#portal td.bsdown,
+#portal th.bsright,
+#portal td.bsright,
+#portal th.bsleft,
+#portal td.bsleft {
+  border-color: #2B3147;
+}
+
+/* End classes for tables */
+/* Start classes for texts */
+
+#textBig tr.data th,
+#textMedium tr.data th,
+#textSmall tr.data th,
+#text tr.data th,
+.text tr.data th,
+#textBig tr.data td,
+#textMedium tr.data td,
+#textSmall tr.data td,
+#text tr.data td,
+.text tr.data td {
+  background-color: #3B4B64;
+  background-attachment: fixed;
+}
+
+#textBig p,
+#textMedium p,
+#textSmall p,
+#text p,
+.text p  {
+  color: #DDD;
+}
+
+/* End classes for texts */
+/* Start classes for other elements */
+
+/* End classes for other elements*/
+/* Specific layout&design variables */
+
+a.admin:link,
+a.admin:visited,
+a.admin:hover
+a.admin:focus,
+a.admin:active,
+span.admin,
+#portal tr.data th.admin {
+  color: #FFF;
+}
+
+a.head:link,
+a.head:visited,
+a.head:hover
+a.head:focus,
+a.head:active,
+span.head,
+#portal tr.data th.head {
+  color: #FFC0CB;
+}
+
+a.staff:link,
+a.staff:visited,
+a.staff:hover
+a.staff:focus,
+a.staff:active,
+span.staff,
+#portal tr.data th.staff {
+  color: #3381BC;
+}
+
+a.mod:link,
+a.mod:visited,
+a.mod:hover
+a.mod:focus,
+a.mod:active,
+span.mod,
+#portal tr.data th.mod {
+  color: #90EE90;
+}
+
+a.elder:link,
+a.elder:visited,
+a.elder:hover
+a.elder:focus,
+a.elder:active,
+span.elder,
+#portal tr.data th.elder {
+  color: #FFD700;
+}
+
+a.coelder:link,
+a.coelder:visited,
+a.coelder:hover
+a.coelder:focus,
+a.coelder:active,
+span.coelder,
+#portal tr.data th.coelder {
+  color: #DAA520;
+}
+
+a.player:link,
+a.player:visited,
+a.player:hover
+a.player:focus,
+a.player:active,
+span.player,
+#portal tr.data th.player {
+  color: #B8CDE9;
+}
+
+a.protected:link,
+a.protected:visited,
+a.protected:hover
+a.protected:focus,
+a.protected:active,
+span.protected,
+#portal tr.data th.protected {
+  color: #90EE90;
+}
+
+a.check_new,
+strong.check_new {
+  color: #FF0;
+}
+
+a.newWindowLink {
+  background: url('../pics/ork_new-window.gif') no-repeat 100% 0;
+}
+
+a.header,
+strong.header {
+}
+
+.newsattack {
+  color: #F5F5DC;
+}
+
+.newsbc {
+  color: #ADD8E6;
+}
+
+.indicator {
+  color: #FF0;
+}
+
+.militstats {
+  color: #CCC;
+}
+
+.positive,
+#portal tr.data td.positive,
+#portal tr.data td.incoming {
+  color: #90EE90;
+}
+
+.negative,
+#portal tr.data td.negative {
+  color: #F00;
+}
+
+label {
+    color: #B8CDE9;
+}
+
+/* End general layout&design variables */
+/* Start 2 column layout */
+
+
+
+/* End 2 column layout */
+/* CSS rules for main inc below (Martel) */
+
+a.gloss {
+  color: #DDD; /* should be the same color as text */
+  border-bottom-color: #DDD; /* for IE 5, same color as above */
+}
+
+#portal span.highlight {
+  color: #FF9;
+  background-color: #3B4B64;
+}

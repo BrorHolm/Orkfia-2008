@@ -1,0 +1,89 @@
+/* Trying to fix myself a better menu :) First just some crappy testing and copy pasting to get back some of my lost css knowledge ;)*/
+#harry *, #test * {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:block;
+	font-weight:bold;
+	text-decoration:none;
+	color:#eda;
+}
+#harry {
+	position:absolute;
+	top:25px;
+	left:0px;
+	background-color:#FF66CC;
+	width:100%;
+	height:20px;
+	z-index:1;
+}
+#test {
+	position:absolute;
+	top:150px;
+	left:0px;
+	background-color:#FF66CC;
+	width:100%;
+	height:20px;
+	z-index:1;
+}
+#harry a,#test a {
+	width:120px;
+}
+#harry a:hover {
+	color:#FD7;
+}
+#harry ul ul {
+display:none;
+}
+#harry ul li:hover {
+display:block;
+color:#33FF33;
+}
+
+#test a {
+display:block;
+width:100px;
+background-color:#33FF99;
+height:20px;
+}
+
+/*BLABLA*/
+
+#navDiv li {
+	width:120px;
+	position:relative;
+	padding:3px;
+	padding-left:0px;
+	background-color:#453;
+	border-right:5px solid #453;
+	z-index:9;
+}
+#navDiv li:hover {
+	background-color:#453;
+	z-index:15;
+	border-right:5px solid #336600;
+}
+#navDiv li li {
+	background-color:#666;
+	z-index:15;
+	border-right:#000000 thin solid;
+}
+#navDiv li li:hover {
+	background-color:#555;
+	z-index:21;
+	border-right:#FF0000 5px solid;
+}
+#navDiv ul ul {
+	position:absolute;
+	display:none;
+	right:3px;
+	top:19px;
+	width:120px;
+	border:#000000 thin solid;
+}
+#navDiv ul ul ul {
+	position:absolute;
+	left:120px;
+	top:0px;
+	width:120px;
+}

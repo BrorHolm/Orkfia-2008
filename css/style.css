@@ -1,0 +1,764 @@
+/*
+  File name: style.css
+  Resolution: 750px or 1000px width. center or left aligned
+  Author: ORKFiA
+  What to include: Only 'blueprints'. (Positioning, size, alignment of data, fonts and font sizes etc)
+  What not to include: Details that fit in color specific css-files. (Colors, images, etc.)
+  Other: Rename file to new version after big changes. Makes implementing quicker for users.
+*/
+
+/*
+  Start new layout.
+  Author: Damadm00, ORKFiA
+*/
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font: 11px verdana, sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  font: 1.8em Georgia, Times, serif;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+
+h2 {
+  font: 1.5em Georgia, Times, serif;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+
+h3,
+div.row strong {
+  font: bold 1em verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1em 10px 1em 10px;
+}
+
+div.row strong {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 0 0 10px;
+}
+
+blockquote {
+  margin: 5%;
+}
+
+form {
+  margin: 10px;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  padding-left: 2px;
+}
+
+#container750center {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 750px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+#container750left {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 750px;
+}
+
+#container1060center {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 1000px;
+}
+
+#container1060left {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 1000px;
+}
+
+#header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 110px;
+  width: 100%;
+  padding-top: 5px;
+}
+
+#header img {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#container750center #header img,
+#container750left #header img {
+    display: block;
+    width: 750px;
+    height: 81px;
+}
+
+#container1060center #header img,
+#container1060left #header img {
+    display: block;
+    width: 1000px;
+    height: 81px;
+}
+
+#menu {
+  position: absolute;
+  left: 0;
+  top: 91px;
+  width: 100%;
+  z-index: 1;
+}
+
+#menu ul#nav li.menu ul li a {
+  display: block;
+  font-weight: normal;
+  font-size: 10px;
+  height: 12px;
+  width: 108px;
+  padding: 3px 5px 3px 5px;
+}
+
+#menu li.menu ul li {
+  width: 120px;
+  height: 20px;
+}
+
+#menu ul#nav li.menu ul li hr.menuLine {
+  width: 110px;
+  margin: 0 auto;
+  /*border-width: 1px;
+  padding: 0;
+  height: 1px;
+  line-height: 1px;*/
+}
+
+#menu li.options {
+  position: absolute;
+  right: 10px;
+}
+
+#menu li.modTools {
+  position: absolute;
+  right: 80px;
+}
+
+#menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#menu li.menu {
+  float: left;
+  position: relative;
+  width: 90px;
+  height: 22px;
+}
+
+#menu li.menu ul {
+  position: absolute;
+  top: 22px;
+  width: 120px;
+  left: -999px;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#menu li.menu:hover ul,
+#menu ul#nav li.sfhover ul {
+  left: 2px;
+}
+
+#upper_shadow {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+}
+
+#portal {
+  position: absolute;
+  top: 120px;
+  bottom: 32px;
+  left: 0px;
+  width: 100%;
+  padding: 0;
+  text-align: left;
+  overflow: auto;
+}
+
+#lower_shadow {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  height: 18px;
+  width: 100%;
+  float: left;
+  padding-top: 4px;
+}
+
+#footer a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-family: Verdana, arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10px;
+}
+
+#logout {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+/* Tribe stats div and table, Martel 20:28 2004-12-28 */
+/* Game stats ul, Martel October 8, 2006  */
+
+#gameStats {
+  position: absolute;
+  left: 160px;
+  top: 12px;
+  height: 60px;
+  padding: 4px 3px;
+  margin: 0;
+  list-style-type: none;
+}
+
+#gameStats li {
+  font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+  line-height: 148%;
+}
+
+#gameStats b {
+  font-weight: bold;
+}
+
+#tribeStats {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  width: 132px;
+  height: 60px;
+  padding: 4px 3px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#tribeStats table {
+  border: 0;
+  font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+  width: 132px;
+  height: 60px;
+}
+
+#tribeStats th {
+  text-align: left;
+}
+
+#tribeStats td {
+  font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+/* End new layout */
+/* Start 2 column layout */
+
+#columns {
+  padding: 0;
+  width: 710px;
+  margin: 0 auto;
+}
+
+#columns #leftcolumn {
+  width: 350px;
+  text-align: left;
+  float: left;
+}
+
+#columns #rightcolumn {
+  width: 350px;
+  text-align: right;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clear hr {
+  display: none;
+}
+
+/* End 2 column layout */
+/* Start new classes for tables */
+
+table {
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+table.big {
+  width: 710px;
+}
+
+div.tableLinkBig {
+  width: 710px;
+  padding-bottom: 2px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+table.medium {
+  width: 405px;
+}
+
+div.tableLinkMedium {
+  width: 405px;
+  padding-bottom: 2px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+table.small {
+  width: 270px;
+}
+
+div.tableLinkSmall {
+  width: 270px;
+  padding-bottom: 2px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+table.mini {
+  width: 135px;
+}
+
+div.tableLinkMini {
+  width: 135px;
+  padding-bottom: 2px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+tr.header {
+}
+
+tr.header th {
+  padding: 3px 1px;
+  /*border-bottom-style: solid;
+  border-bottom-width: 1px;*/
+}
+
+tr.subheader {
+}
+
+tr.subheader th {
+  text-align: left;
+  padding: 3px 1px;
+  /*border-bottom-style: solid;
+  border-bottom-width: 1px;*/
+}
+
+tr.subheader td {
+  text-align: right;
+  padding: 3px 1px;
+  /*border-bottom-style: solid;
+  border-bottom-width: 1px;*/
+}
+
+tr.subheader th.center {
+  text-align: center;
+}
+
+tr.subheader th.right {
+  text-align: right;
+}
+
+tr.subheader td.center {
+  text-align: center;
+}
+
+tr.subheader td.left {
+  text-align: left;
+}
+
+tr.data th {
+  padding: 2px 1px;
+  text-align: left;
+}
+
+tr.data th.center {
+  text-align: center;
+}
+
+tr.data td {
+  padding: 2px 1px;
+  text-align: right;
+  font-weight: normal;
+}
+
+tr.data td div {
+  overflow: auto;
+}
+
+tr.data td.center {
+  text-align: center;
+}
+
+tr.data td.left {
+  text-align: left;
+}
+
+tr.data td.incoming {
+  font-weight: bold;
+}
+
+tr.message td {
+  padding: 2px 1px;
+  text-align: left;
+  font-style: italic;
+  font-weight: normal;
+}
+
+th.bsup,
+td.bsup {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+th.bsdown,
+td.bsdown {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+th.bsright,
+td.bsright {
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+th.bsleft,
+td.bsleft {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+/* End classes for tables */
+/* Start classes for texts */
+
+#textBig,
+#textMedium,
+#textSmall,
+#text,
+div.text {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  background-attachment: fixed;
+}
+
+#text,
+div.text {
+  width: 100%;
+}
+
+#textBig {
+  width: 710px;
+}
+
+#textMedium {
+  width: 405px;
+}
+
+#textSmall {
+  width: 270px;
+}
+
+.militstats {
+  font-size: 0.8em;
+}
+
+.center h2,
+.center h3 {
+  margin: 10px 0;
+}
+
+#textBig p,
+#textMedium p,
+#textSmall p,
+#text p,
+.text p {
+  line-height: 1.8em;
+  font-family: Verdana, sans-serif;
+  margin: 10px;
+}
+
+.center p {
+  line-height: 1.8em;
+  font-family: Verdana, sans-serif;
+  margin: 10px 0;
+}
+
+#textBig ul,
+#textMedium ul,
+#textSmall ul,
+#text ul,
+.text ul {
+  line-height: 1.8em;
+  font-family: Verdana, sans-serif;
+  margin: 10px 0;
+  padding: 0 30px;
+}
+
+#textBig ol,
+#textMedium ol,
+#textSmall ol,
+#text ol,
+.text ol {
+  line-height: 1.8em;
+  font-family: Verdana, sans-serif;
+  margin: 10px 0;
+  padding: 0 30px;
+}
+
+#textBig a:hover,
+#textMedium a:hover,
+#textSmall a:hover,
+#text a:hover,
+.text a:hover {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+}
+
+/* End classes for texts */
+/* Alliance page navigation arrows (not depending on color skins) */
+
+a#arrowl {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url('../pics/arrow_l.gif');
+}
+
+a:hover#arrowl {
+  background-image: url('../pics/arrow_l2.gif');
+}
+
+a#arrowr {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url('../pics/arrow_r.gif');
+}
+
+a:hover#arrowr {
+  background-image: url('../pics/arrow_r2.gif');
+}
+
+a .alt {
+  display: none;
+}
+
+/* End alliance page navigation arrows */
+/* Start classes for other elements */
+
+#center,
+div.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Start forms elements */
+
+label {
+    font-weight: bold;
+}
+
+label.hidden {
+  margin: 0pt;
+  padding: 0pt;
+  width: 0pt;
+  height: 0pt;
+  visibility: hidden;
+  display: none;
+}
+
+input.login {
+  background: url('../pics/username.gif');
+  font-weight: bold;
+  width: 80px;
+}
+
+input.password {
+  background: url('../pics/password.gif');
+  font-weight: bold;
+  width: 80px;
+}
+
+input.submit {
+}
+
+/* End classes for other elements */
+/* Specific layout&design variables */
+
+a:visited.forum {
+  font-weight: normal;
+}
+
+a.newWindowLink {
+  padding: 0 17px 0 0;
+  /*background: url('../pics/new-window.gif') no-repeat 100% 0;*/
+}
+
+a.header,
+strong.header {
+  padding-left: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.incoming {
+  font-weight: bold;
+}
+
+.pd {
+  padding: 1px;
+}
+
+.padding {
+  padding: 1px;
+}
+
+.nleft {
+  border-left-width: 0px;
+}
+
+.nright {
+  border-right-width: 0px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+/* End general layout&design variables */
+/* CSS rules for main inc below (Martel) */
+
+a:link.gloss,
+a:visited.gloss,
+a:hover.gloss,
+a:focus.gloss,
+a:active.gloss {
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+}
+
+#textBig #teaser {
+  width: 50%;
+  float: right;
+}
+
+#textBig #login {
+  width: 50%;
+  float: left;
+}
+
+#textBig h2 img,
+#textMedium h2 img,
+#textSmall h2 img,
+#text h2 img {
+  margin: 0pt;
+}
+
+div.row {
+  text-align: center;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 10px !important;
+  padding-top: 5px;
+}
+
+div.row span.label {
+  float: left;
+  width: 250px;
+  text-align: right;
+}
+
+div.row span.formw {
+  float: right;
+  width: 320px;
+  text-align: left;
+}

@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body
+{
+    background-image: url('http://development.orkfia.org/pics/gray2_back.gif');
+    text-align: center;
+    margin: 0 0 0 0;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #222;
+    overflow: auto;
+}
+
+A:link, A:visited
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #C0D0AC;
+}
+
+A:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #CCC;
+}
+
+blockquote
+{
+    margin: 5%;
+}
+
+table
+{
+    color: #D4D4D4;
+}
+
+.table
+{
+    margin: 0px auto;
+    height: 100%;
+}
+
+.tableheader
+{
+    background: #558855;
+    color: #000;
+    padding: 1px;
+    font-weight: bold;
+    border-bottom: 1px solid #1B391B;
+}
+
+.tablesubheader
+{
+    background: #4D7647;
+    color: #000;
+    padding: 1px;
+    font-weight: bold;
+    border-bottom: 1px solid #1B391B;
+}
+
+.indicator
+{
+    color: yellow;
+}
+
+.bup
+{
+    border-top: 1px solid #1B391B;
+}
+
+.border
+{
+    border: 1px solid #1B391B;
+}
+
+#content
+{
+    color: #D4D4D4;
+    border: 1px solid #1B391B;
+    text-align: center;
+    height: 574px;
+    width: 750px;
+    margin: 0 auto;
+}
+
+#toptext
+{
+    color: #D4D4D4;
+    background-color: #285431;
+    background-image: url('http://development.orkfia.org/pics/for2_back.gif');
+    width: 750px;
+    height: 62px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#startbar_u_shadow
+{
+    background-color: #285431;
+    background-image: url('http://development.orkfia.org/pics/for2_l_shadow.gif');
+    background-repeat: repeat-x;
+    width: 750px;
+    height: 10px;
+    overflow: hidden;
+}
+
+#startbar
+{
+    color: #D4D4D4;
+    text-align: center;
+    width: 750px;
+    height: 18px;
+    background-color: #4D7647;
+}
+
+#startbar_l_shadow
+{
+    background-color: #285431;
+    background-image: url('http://development.orkfia.org/pics/for2_u_shadow.gif');
+    background-repeat: repeat-x;
+    width: 750px;
+    height: 10px;
+    overflow: hidden;
+}
+
+#startportal
+{
+    padding-top: 5px;
+    background-color: #285431;
+    background-image: url('http://development.orkfia.org/pics/for2_back.gif');
+    color: #D4D4D4;
+    width: 750px;
+    height: 430px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: auto;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+}
+
+#bottom
+{
+    width: 750px;
+    color: #222;
+    font-size: 10px;
+}
+
+/* CSS rules for main inc php below */
+
+#frontork
+{
+    width: 750px;
+    height: 125px;
+    background-color: #285431;
+    background-image: url('http://development.orkfia.org/pics/frontork.gif');
+    border-top: 1px solid #1B391B;
+    border-bottom: 1px solid #1B391B;
+}
+
+#login_mask
+{
+    margin: 3% 0 0 0;
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+#login_mask INPUT.login
+{
+    margin-top: 0.75em;
+    background: url('http://www.orkfia.org/pics/username.gif');
+    font-weight: bold;
+}
+
+#login_mask INPUT.password
+{
+    margin-top: 10px;
+    background: url('http://www.orkfia.org/pics/password.gif');
+    font-weight: bold;
+}
+
+#login_mask INPUT.submit
+{
+    margin-top: 10px;
+    border: 0;
+}
+
+#intro
+{
+    margin: 3% 0 0 0;
+    float: left;
+    width: 450px;
+}
+
+#intro img
+{
+    margin-bottom: 0.75em;
+}
+
+#donate
+{
+    margin: 3% 0 0 0;
+    float: right;
+    width: 140px;
+}
+
+#donate img
+{
+    margin-bottom: 0.75em;
+}
+
+p
+{
+    margin-bottom: 0.75em;
+}
+
+.strike
+{
+    text-decoration: line-through;
+}
+
+.lightbg
+{
+    margin: 0 auto;
+    width: 600px;
+    background: url('http://development.orkfia.org/pics/for2_back_light.gif');
+    position: relative;
+    z-index: 1;
+}
+
+.lightbgtext
+{
+    padding: 10px 10px;
+    background: url('http://development.orkfia.org/pics/back_bird.gif') no-repeat top right;
+    z-index: 2;
+}
+
+div.row
+{
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 10px !important;
+    padding-top: 5px;
+}
+
+div.row span.label
+{
+    float: left;
+    width: 250px;
+    text-align: right;
+}
+
+div.row span.formw
+{
+    float: right;
+    width: 320px;
+    text-align: left;
+}

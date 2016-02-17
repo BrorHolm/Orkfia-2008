@@ -1,0 +1,20 @@
+#portal {
+  height: expression(document.body.clientHeight - 183 + "px");
+  overflow-x: hidden;
+}
+
+#menu li.menu ul li {
+  height: 18px;
+  width: 110px;
+  padding: 0 5px 0 5px;
+  margin: 2px 0 2px 0;
+}
+
+#lower_shadow {
+  bottom: 20px;
+}
+
+#footer {
+  padding-top: 4px;
+  height: 20px;
+}
